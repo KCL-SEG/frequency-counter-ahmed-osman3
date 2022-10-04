@@ -12,7 +12,7 @@ def frequencies(items):
             frequencies[str(item)] = value + 1
         else:
             #If value key and value is not present, add new key value to dictionary
-            frequencies[str(item)] = 0
+            frequencies[str(item)] = 1
 
     return frequencies
 
